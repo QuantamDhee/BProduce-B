@@ -46,9 +46,7 @@ Order.create(user_id: User.ids.sample, item_id: Item.ids.sample)
 
 
 puts "reviews..."
-# 3.times do 
-#     Review.create(text: "Cheap", user_id: User.ids.sample, item_id: Item.ids.sample)
-# end
+
 Review.create(text: "Cheap", user_id: User.ids.sample, item_id: Item.ids.sample)
 Review.create(text: "Kind of weird", user_id: User.ids.sample, item_id: Item.ids.sample)
 Review.create(text: "First time trying it and its good", user_id: User.ids.sample, item_id: Item.ids.sample)
