@@ -9,6 +9,7 @@ class Api::V1::ReviewsController < ApplicationController
     end
 
     private
+    
     def review_params
         params.require(:review).permit(:text, :item_id)
     end
